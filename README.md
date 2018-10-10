@@ -4,7 +4,7 @@
 [![Python 3.x Support](https://img.shields.io/pypi/pyversions/Django.svg)](https://python.org)
 
 
-![trovotutto command line tool](screenshots/trovotutto-cmd.gif)
+![trovotutto command line tool](https://raw.githubusercontent.com/tallero/trovotutto/master/screenshots/trovotutto-cmd.gif)
 
 *Trovotutto* (Italian for *"I find everything*) is a small naive `python 3.x` search engine using k-grams. It was conceived as a `find` replacement that would be tolerant to typos and that would take paths into consideration when searching.
 
@@ -23,7 +23,7 @@ Trovotutto install a command line utility with the same name that can be used to
 
 More proficient usage is obtained in IPython console for repeated usage, as the index is kept in memory:
 
-![trovotutto from ipython](screenshots/trovotutto-ipython.gif)
+![trovotutto from ipython](https://raw.githubusercontent.com/tallero/trovotutto/master/screenshots/trovotutto-ipython.gif)
 
 ## About
 
