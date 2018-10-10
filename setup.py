@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="trovotutto",
-    version="0.0.1",
+    version="0.0.1.1",
     author="Pellegrino Prevete",
     author_email="pellegrinoprevete@gmail.com",
     description="small search engine using k-grams",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://gitlab.com/tallero/trovotutto",
+    url="https://github.com/tallero/trovotutto",
     packages=setuptools.find_packages(),
     entry_points = {
         'console_scripts': ['trovotutto = trovotutto:main']
