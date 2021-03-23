@@ -3,7 +3,7 @@
 #    trovotutto
 #
 #    ----------------------------------------------------------------------
-#    Copyright © 2018  Pellegrino Prevete
+#    Copyright © 2018, 2019, 2020, 2021  Pellegrino Prevete
 #
 #    All rights reserved
 #    ----------------------------------------------------------------------
@@ -22,7 +22,6 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-
 import itertools
 import re
 import operator
@@ -36,11 +35,14 @@ from subprocess import check_output as sh
 
 from argparse import ArgumentParser
 from nltk import ngrams as ng
-from xdg import BaseDirectory
 
 from .color import Color
+from .config import Config
 
 name = "trovotutto"
+verison = "0.0.2"
+
+config = Config()
 
 def save(variable, filename):
     """Save variable on given path using Pickle
@@ -93,7 +95,7 @@ class Files:
         if verbose > 0:
             print("documentifiyng files' path in " + path)
 
-        data_path = BaseDirectory.save_data_path(name)
+        data_path = config.get_data_dir()
  
         extensions = {"images":      ["bmp", "eps", "jpeg", "jpg", "png", "svg", "tiff", "webp","xfc"],
                      "documents":    ["doc", "docx", "txt", "rtf", "pdf", "ooxml", "docm", "odt", "xls", "ppt", "pptx", "xps"],

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="trovotutto",
-    version="0.0.1.1",
+    version="0.0.2",
     author="Pellegrino Prevete",
     author_email="pellegrinoprevete@gmail.com",
     description="small search engine using k-grams",
@@ -13,16 +13,16 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/tallero/trovotutto",
     packages=setuptools.find_packages(),
-    entry_points = {
+    entry_points={
         'console_scripts': ['trovotutto = trovotutto:main']
     },
     install_requires=[
+        'appdirs',
         'nltk',
-        'pyxdg'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+        "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: Unix",
     ],
 )

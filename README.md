@@ -1,8 +1,7 @@
 # Trovotutto
 
-[![License: GPL v3+](https://img.shields.io/badge/license-GPL%20v3%2B-blue.svg)](http://www.gnu.org/licenses/gpl-3.0) 
 [![Python 3.x Support](https://img.shields.io/pypi/pyversions/Django.svg)](https://python.org)
-
+[![License: AGPL v3+](https://img.shields.io/badge/license-AGPL%20v3%2B-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 ![trovotutto command line tool](https://raw.githubusercontent.com/tallero/trovotutto/master/screenshots/trovotutto-cmd.gif)
 
@@ -27,4 +26,4 @@ More proficient usage is obtained in IPython console for repeated usage, as the 
 
 ## About
 
-This program is licensed under [GNU General Public License v3 or later](https://www.gnu.org/licenses/gpl-3.0.en.html) by [Pellegrino Prevete](http://prevete.ml). If you find this program useful, consider offering me a [beer](https://patreon.com/tallero), a new [computer](https://patreon.com/tallero) or a part time remote [job](mailto:pellegrinoprevete@gmail.com) to help me pay the bills.
+This program is licensed under [GNU Affero General Public License v3 or later](https://www.gnu.org/licenses/agpl-3.0.en.html) by [Pellegrino Prevete](http://prevete.ml). If you find this program useful, consider offering me a [beer](https://patreon.com/tallero), a new [computer](https://patreon.com/tallero) or a part time remote [job](mailto:pellegrinoprevete@gmail.com) to help me pay the bills.
